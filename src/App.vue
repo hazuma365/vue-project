@@ -1,7 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import JsonTable from './components/JsonTable.vue';
-import TheWelcome from './components/TheWelcome.vue'
+import JsonTableWithSearch from './components/JsonTableWithSearch.vue';
 </script>
 
 <template>
@@ -9,12 +9,13 @@ import TheWelcome from './components/TheWelcome.vue'
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it! dev#7" />
+      <HelloWorld msg="JSON Table test" />
     </div>
   </header>
 
   <main>
     <JsonTable />
+    <JsonTableWithSearch/>
   </main>
 </template>
 
