@@ -8,7 +8,7 @@ import TheWelcome from './components/TheWelcome.vue'
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it! 2025-03-23 3" />
+      <HelloWorld msg="You did it! dev#7" />
     </div>
   </header>
 
